@@ -28,7 +28,7 @@ public class GenericUtils {
     /**
      * Sums the elements of the given array.
      * @param array the array to sum
-     * @param <T> declares that the method is generic and can take any type of array
+     * @param <T> declares that the method is generic and can take any type of array, must be a subclass of Number
      * @return the sum of the elements in the array
      */
     public static <T extends Number> double sum(T[] array) {
